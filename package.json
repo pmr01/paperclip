@@ -52,6 +52,12 @@
     "patchedDependencies": {
       "embedded-postgres@18.1.0-beta.16": "patches/embedded-postgres@18.1.0-beta.16.patch"
     },
+    "onlyBuiltDependencies": [
+      "@embedded-postgres/linux-x64",
+      "esbuild",
+      "sharp",
+      "es5-ext"
+    ],
     "overrides": {
       "rollup": ">=4.59.0"
     }
